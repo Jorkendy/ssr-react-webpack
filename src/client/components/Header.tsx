@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 
 import { MenuLinks } from "../../routes";
+
 const Header = () => {
   return (
     <Fragment>

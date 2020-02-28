@@ -1,7 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Loadable from "react-loadable";
-import styled from "styled-components";
 
 import Routes from "../routes";
 
@@ -14,7 +13,6 @@ const App = () => {
   return (
     <>
       <Header />
-      <Test>Test</Test>
       <Switch>
         {Routes.map((_route, index) => (
           <Route
@@ -30,7 +28,3 @@ const App = () => {
 };
 
 export default App;
-
-const Test = styled.div`
-  color: red;
-`;
